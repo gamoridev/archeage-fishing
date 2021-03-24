@@ -1,5 +1,5 @@
 ## Fishing bot - Archeage
-![Loliage](./cover.png)
+![Loliage](./cover.PNG)
 # This script only kills the fish when you get their target, it not delivers or start fishing
 
 #### If doesn't work, contact me. If it works, you can buy me a [☕]( https://www.buymeacoffee.com/gamoridev)
