@@ -5,8 +5,11 @@
 #### If doesn't work, contact me. If it works, you can buy me a [☕]( https://www.buymeacoffee.com/gamoridev)
 
 ## How to
-#### - Use python 3.7
-#### - Install requirements on cmd with admin permissions with the following command
-`pip install requirements`
+#### - Install python 3.7 https://www.python.org/downloads/release/python-379/
+#### - Open cmd at project folder
+#### - Install requirements packages with the following command 
+`pip install -r requirements.txt`
 
+#### - Configure your fishing skills ingame like as
+![keybinds](./keybinds.png)
 #### - Open fishing.py with double click

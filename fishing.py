@@ -22,27 +22,27 @@ if is_admin():
     keyboard.wait('ins')
     while keyboard.is_pressed('end') == False:
         now = datetime.now().time()
-        if pyautogui.locateOnScreen('up.png', region=(700, 0, 500, 200), confidence=CONFIDENCE) != None:
+        if pyautogui.locateOnScreen('images/up.png', region=(700, 0, 500, 200), confidence=CONFIDENCE) != None:
             keyboard.press_and_release('up')
             print(now, "->> SKILL seta pra CIMA")
             time.sleep(2.5)
-        elif pyautogui.locateOnScreen('left.png', region=(700, 0, 500, 200), confidence=CONFIDENCE) != None:
+        elif pyautogui.locateOnScreen('images/left.png', region=(700, 0, 500, 200), confidence=CONFIDENCE) != None:
             keyboard.press_and_release('left')
             print(now, "->> SKILL seta pra ESQUERDA")
             time.sleep(2.5)
-        elif pyautogui.locateOnScreen('right.png', region=(700, 0, 500, 200), confidence=CONFIDENCE) != None:
+        elif pyautogui.locateOnScreen('images/right.png', region=(700, 0, 500, 200), confidence=CONFIDENCE) != None:
             keyboard.press_and_release('right')
             print(now, "->> SKILL seta pra DIREITA")
             time.sleep(2.5)
-        elif pyautogui.locateOnScreen('pull.png', region=(700, 0, 500, 200), confidence=CONFIDENCE) != None:
+        elif pyautogui.locateOnScreen('images/pull.png', region=(700, 0, 500, 200), confidence=CONFIDENCE) != None:
             keyboard.press_and_release('down')
             print(now, "->> SKILL PUXAR peixe")
             time.sleep(2.5)
-        elif pyautogui.locateOnScreen('release.png', region=(700, 0, 500, 200), confidence=CONFIDENCE) != None:
+        elif pyautogui.locateOnScreen('images/release.png', region=(700, 0, 500, 200), confidence=CONFIDENCE) != None:
             keyboard.press_and_release('home')
             print(now, "->> SKILL SOLTAR peixe")
             time.sleep(2.5)
-        elif pyautogui.locateOnScreen('target.png', region=(700, 0, 500, 200), confidence=CONFIDENCE) != None:
+        elif pyautogui.locateOnScreen('images/target.png', region=(700, 0, 500, 200), confidence=CONFIDENCE) != None:
             print(now, "->> AGUARDANDO SKILL")
             time.sleep(0.01)
         else:
