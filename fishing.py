@@ -55,7 +55,7 @@ if is_admin():
                 keyboard.press_and_release('home')
                 lastskill = skill
                 print(now, "->> SKILL SOLTAR peixe")
-        elif pyautogui.locateOnScreen('images/target.png', region=(700, 0, 500, 200), confidence=CONFIDENCE) != None:
+        elif pyautogui.locateOnScreen('images/target.png', region=(700, 0, 300, 150), confidence=CONFIDENCE) != None:
             if lastskill == None:
                 print(now, "->> AGUARDANDO SKILL")
                 time.sleep(0.1)
